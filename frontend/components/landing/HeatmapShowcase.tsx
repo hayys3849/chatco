@@ -42,15 +42,15 @@ export default function HeatmapShowcase() {
             <div className="absolute top-[36%] left-[34%]">
               <div className="w-36 h-36 rounded-full" style={{ background: "radial-gradient(circle, rgba(255,59,59,0.7) 0%, rgba(255,107,53,0.35) 35%, transparent 65%)" }} />
               <div className="absolute inset-0 flex items-center justify-center"><div className="w-8 h-8 rounded-full bg-[#FF3B3B]/30 pulse-ring" /></div>
-              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white font-semibold whitespace-nowrap bg-black/30 px-2 py-0.5 rounded-full">EDSA-Cubao</span>
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white font-semibold whitespace-nowrap bg-black/30 px-2 py-0.5 rounded-full">Balagtas</span>
             </div>
             <div className="absolute top-[65%] left-[18%]">
               <div className="w-28 h-28 rounded-full" style={{ background: "radial-gradient(circle, rgba(255,107,53,0.6) 0%, rgba(255,184,0,0.25) 40%, transparent 65%)" }} />
-              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white font-semibold whitespace-nowrap bg-black/30 px-2 py-0.5 rounded-full">Baclaran</span>
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white font-semibold whitespace-nowrap bg-black/30 px-2 py-0.5 rounded-full">Marilao</span>
             </div>
             <div className="absolute top-[22%] left-[60%]">
               <div className="w-24 h-24 rounded-full" style={{ background: "radial-gradient(circle, rgba(255,184,0,0.5) 0%, rgba(255,184,0,0.15) 45%, transparent 65%)" }} />
-              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white font-semibold whitespace-nowrap bg-black/30 px-2 py-0.5 rounded-full">Ayala-Makati</span>
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10px] text-white font-semibold whitespace-nowrap bg-black/30 px-2 py-0.5 rounded-full">Calumpit</span>
             </div>
 
             {/* Legend & Live Badge */}
