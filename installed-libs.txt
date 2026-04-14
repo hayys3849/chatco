@@ -1,2 +1,4 @@
 npm install react-leaflet leaflet
 npm install qrcode.react
+
+- after pulling, go cd frontend and npm install
