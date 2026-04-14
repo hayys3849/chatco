@@ -5,7 +5,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-// Using a central Metro Manila coordinate for mockup
 const MAP_CENTER: L.LatLngTuple = [14.5995, 120.9842];
 
 export default function ConductorMap() {
@@ -68,7 +67,7 @@ export default function ConductorMap() {
         {/* Conductor's Current Location */}
         <Marker position={[14.5995, 120.9842]} icon={vehicleIcon}>
           <Popup>
-            <div className="font-bold text-[#1A5FB4]">RIZ 2024 (You)</div>
+            <div className="font-bold text-[#1A5FB5]">RIZ 2024 (You)</div>
             <div className="text-xs text-gray-500">Status: Available</div>
           </Popup>
         </Marker>
